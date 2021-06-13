@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+/*header part*/
+#header{
+    height: 70vh;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+/*hortizontal list*/
+.list{
+    list-style: none;
+    text-align: center;
+}
+
+.list li{
+    display: inline-block;
+    margin: 8px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #7bc990;
+    font-size: larger;
+    font-weight: bold;
+    transition: color 0.7s;
+}
+
+.nav-menu li a:hover{
+    color: aquamarine;
+    border-bottom: 1px solid rgb(169, 231, 210);
+    transition: ease-in-out;
+  
+}
+
+.icons li a i{
+
+    font-size: x-large;
+    color: rgb(236, 195, 233);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.icons li a i:hover{
+    color: rgb(150, 173, 126);
+    box-shadow: 0px 0px 4px 2px rgb(197, 169, 169);
+    border-bottom: none;
+    transition: none;
+    
+}
+
+#name-div{
+    margin-top: 80px;
+}
+#name{
+    color: #8fc2db;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 500px;
+    letter-spacing: 3px;
+    
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+/*for profile image*/
+#image{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -100px;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+    box-shadow: 0px 0px 4px 6px rgb(221, 192, 192);
+    
+}
+
+#about p{
+    text-align: justify;
+    margin-left: 20rem;
+}
