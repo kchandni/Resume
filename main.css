@@ -37,7 +37,7 @@ body{
     transition: ease-in-out;
   
 }
-
+/*icons*/
 .icons li a i{
 
     font-size: x-large;
@@ -69,6 +69,15 @@ body{
     height: auto;
     width: 100%;
     position: relative;
+
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    align-items: center;
 }
 /*for profile image*/
 #image{
@@ -90,3 +99,154 @@ body{
     text-align: justify;
     margin-left: 20rem;
 }
+/*section part*/
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+section:nth-child(2n){
+    background-color: rgb(224, 233, 238);
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+   /* margin: 10px auto;
+    height: 30%;*/
+
+}
+
+.section-heading span{
+    color: blue;
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: .5rem;
+}
+/*skill section*/
+.skill-port-info{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+.skill-element{
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(243, 234, 234);
+    border-radius: 5rem;
+    /*margin: 4rem;*/
+}
+#c{
+
+    width: 6rem;
+    background-color: lightgreen;
+    
+
+}
+.progress{
+    display: inline-block;
+    height: inherit;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(80, 73, 73);
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    padding-left: .9rem;
+}
+#java{
+    width: 8rem;
+    background-color: rgb(141, 71, 141);
+    
+}
+
+#html{
+
+    width: 7.5rem;
+    background-color: rgb(177, 10, 10);
+    
+    
+}
+
+#dbms{
+
+    width: 4rem;
+    background-color: palevioletred;
+
+}
+
+#android{
+    
+    width: 3rem;
+    background-color:rgb(214, 105, 159);
+
+    
+}
+
+#python{
+    
+    width: 3rem;
+    background-color:rgb(105, 214, 141);
+    
+    
+}
+
+#OS{
+    
+    width: 3rem;
+    background-color:rgb(162, 105, 214);
+    
+    
+}
+
+#data-structure{
+    
+    width: 3rem;
+    background-color:rgb(235, 143, 143);
+    
+    
+    
+}
+#js{
+    width: 3rem;
+    background-color: chocolate;
+}
+#css{
+    width: 7rem;
+    background-color: rgb(43, 219, 131);
+}
+
+/*portfolois section*/
+.port-element img{ 
+
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/*contact section*/
+#contact-info{
+    width: 100%;
+    height: 75vh;
+    
+    background-image: linear-gradient(to top right,purple, blue,purple );
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    display: inline-block;
+
+}
+#our-details{
+    display: inline-block;
+}
+#your-details{
+    display: inline-block;
+}
+
