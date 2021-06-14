@@ -108,7 +108,7 @@ section:nth-child(2n){
     background-color: rgb(224, 233, 238);
 }
 .section-heading{
-    width: auto;
+    /*width: 3rem;*/
     padding: 20px 10px 10px;
     font-weight: 400;
    /* margin: 10px auto;
@@ -231,16 +231,19 @@ section:nth-child(2n){
 
 
 /*contact section*/
-#contact-info{
-    width: 100%;
+#contact{
+
+    /*width: 100%;
     height: 75vh;
     
-    background-image: linear-gradient(to top right,purple, blue,purple );
+    background-image: linear-gradient(to top right,red,purple );
     display: flex;
     flex-wrap: wrap;
 
     flex-direction: row;
-    display: inline-block;
+    display: inline-block;*/
+
+    background-image: linear-gradient(to top right,red,purple );
 
 }
 #our-details{
@@ -250,3 +253,67 @@ section:nth-child(2n){
     display: inline-block;
 }
 
+/*education section*/
+#education-section{
+    width: 70%;
+    height: 75vh;
+    border: 1px solid black;
+    position: relative;
+}
+
+.education-block
+{
+    width: 48%;
+    height: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.education-block:nth-child(2n){
+    margin-left: 51.2%;
+}
+.divider{
+    height: 50vh;
+    width: 0px;
+    border-left: 3px dashed lightgray;
+    position: absolute;
+    margin-left: 50%;
+    top: 5%;
+    z-index: 1;
+}
+
+.divider-icon{
+    transform: rotate(90deg);
+    top: 30%;
+    position: sticky;
+    color: blue;
+    z-index: 2;
+}
+.education-block:nth-child(2n+1)::after{
+    content: " ";
+    height: .5rem;
+    right: -4%;
+    width: .5rem;
+    position: absolute;
+    border-radius: 50%;
+    background-color: blueviolet;
+    top: 20%;
+    z-index: 2;
+}
+
+.education-block:nth-child(2n)::before{
+    content: " ";
+    height: .5rem;
+    left: -3%;
+    width: .5rem;
+    position: absolute;
+    border-radius: 50%;
+    background-color: blueviolet;
+    top: 20%;
+    z-index: 2;
+}
+
+.field{
+    border-bottom: 2px solid black;
+}
