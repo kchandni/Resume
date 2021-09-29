@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.6;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 1;
 }
@@ -25,7 +25,7 @@ body{
 
 .nav-menu li a{
     text-decoration: none;
-    color: #7bc990;
+    color: #27075a;
     font-size: larger;
     font-weight: bold;
     transition: color 0.7s;
@@ -40,15 +40,15 @@ body{
 /*icons*/
 .icons li a i{
 
-    font-size: x-large;
-    color: rgb(236, 195, 233);
+    font-size: xx-large;
+    color: rgb(172, 23, 23);
     border-radius: 50%;
     padding: 10px;
     
 }
 .icons li a i:hover{
-    color: rgb(150, 173, 126);
-    box-shadow: 0px 0px 4px 2px rgb(197, 169, 169);
+    color: rgb(165, 47, 139);
+    box-shadow: 0px 0px 4px 2px rgb(190, 118, 118);
     border-bottom: none;
     transition: none;
     
@@ -58,9 +58,10 @@ body{
     margin-top: 80px;
 }
 #name{
-    color: #8fc2db;
-    font-weight: bolder;
+    color: #29061e;
+    font-weight: 1000;
     font-size: 40px;
+    
     margin-left: 500px;
     letter-spacing: 3px;
     
@@ -97,15 +98,20 @@ section{
 
 #about p{
     text-align: justify;
-    margin-left: 20rem;
+    margin-left: 8rem;
+    font-family: cursive;
+    font-size: medium;
+
 }
 /*section part*/
 section:nth-child(2n+1){
     background-color: white;
+    
 }
 
 section:nth-child(2n){
-    background-color: rgb(224, 233, 238);
+    background-color: rgb(212, 240, 224);
+    
 }
 .section-heading{
     /*width: 3rem;*/
@@ -126,6 +132,7 @@ section:nth-child(2n){
 .skill-port-info{
     width: 70%;
     height: 70%;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -141,7 +148,7 @@ section:nth-child(2n){
 }
 #c{
 
-    width: 6rem;
+    width: 5rem;
     background-color: lightgreen;
     
 
@@ -172,7 +179,7 @@ section:nth-child(2n){
 
 #dbms{
 
-    width: 4rem;
+    width: 2rem;
     background-color: palevioletred;
 
 }
@@ -187,7 +194,7 @@ section:nth-child(2n){
 
 #python{
     
-    width: 3rem;
+    width: 1rem;
     background-color:rgb(105, 214, 141);
     
     
@@ -203,14 +210,14 @@ section:nth-child(2n){
 
 #data-structure{
     
-    width: 3rem;
+    width: 5rem;
     background-color:rgb(235, 143, 143);
     
     
     
 }
 #js{
-    width: 3rem;
+    width: 2rem;
     background-color: chocolate;
 }
 #css{
@@ -233,31 +240,45 @@ section:nth-child(2n){
 /*contact section*/
 #contact{
 
-    /*width: 100%;
-    height: 75vh;
     
-    background-image: linear-gradient(to top right,red,purple );
-    display: flex;
-    flex-wrap: wrap;
+    background-image: linear-gradient(to top right,rgb(163, 61, 61),rgb(74, 167, 170) );
+    
 
-    flex-direction: row;
-    display: inline-block;*/
+}
+#contact-info{
+    width: 90%;
+    height: 75vh;
+    margin: 0.4rem;
 
-    background-image: linear-gradient(to top right,red,purple );
-
+    position: relative;
+}
+#info{
+    height: 250px;
+    width: 40%;
+    margin-top: 2%;
+    
+    margin-left: 6%;
+    text-align: center;
+    font-size: 1.4rem;
 }
 #our-details{
-    display: inline-block;
+    height: 250px;
+    width: 40%;
+    margin-top: -250px;
+    
+    margin-left: 55%;
+    text-align: center;
+    font-size: 1.4rem;
 }
-#your-details{
-    display: inline-block;
-}
+
+
 
 /*education section*/
 #education-section{
     width: 70%;
     height: 75vh;
-    border: 1px solid black;
+    margin: 0.4rem;
+    
     position: relative;
 }
 
@@ -268,6 +289,7 @@ section:nth-child(2n){
     margin: 5px;
     border: 1px solid black;
     position: relative;
+    font-size: 1.1rem;
 }
 
 .education-block:nth-child(2n){
@@ -280,7 +302,7 @@ section:nth-child(2n){
     position: absolute;
     margin-left: 50%;
     top: 5%;
-    z-index: 1;
+    
 }
 
 .divider-icon{
@@ -288,7 +310,7 @@ section:nth-child(2n){
     top: 30%;
     position: sticky;
     color: blue;
-    z-index: 2;
+    z-index: 3;
 }
 .education-block:nth-child(2n+1)::after{
     content: " ";
@@ -315,5 +337,12 @@ section:nth-child(2n){
 }
 
 .field{
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    font-size: larger;
+    font-family: cursive;
+    
 }
+
